@@ -111,10 +111,19 @@ main {
 .col-img {
     width: calc(60% - 40px);
     margin: 20px;
-    text-align: right;
+    text-align: center;
 }
 .col-text {
     width: 20%;
     margin: 10px;
     padding-top: 30px;
+}
+.lightgray-bg {
+    background-color: lightgray;
+}
+#alchemist {
+    max-width: 400px;
+}
+section.lightgray-bg .col-text, section.lightgray-bg .col-img {
+    float: right;
 }
