@@ -101,7 +101,7 @@ main {
     width: 80%;
     margin: auto;
 }
-#blue-frog {
+#blue-frog, #alchemist, #alladin {
     width: 400px;
 }
 .col-img, .col-text {
@@ -120,9 +120,6 @@ main {
 }
 .lightgray-bg {
     background-color: lightgray;
-}
-#alchemist {
-    max-width: 400px;
 }
 section.lightgray-bg .col-text, section.lightgray-bg .col-img {
     float: right;
