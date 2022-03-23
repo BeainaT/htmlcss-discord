@@ -93,3 +93,28 @@ i {
 .title p {
     padding: 30px;
 }
+/*MAIN*/
+main {
+    max-width: 1280px;
+}
+.main-container {
+    width: 80%;
+    margin: auto;
+}
+#blue-frog {
+    width: 400px;
+}
+.col-img, .col-text {
+    float: left;
+    
+}
+.col-img {
+    width: calc(60% - 40px);
+    margin: 20px;
+    text-align: right;
+}
+.col-text {
+    width: 20%;
+    margin: 10px;
+    padding-top: 30px;
+}
