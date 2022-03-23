@@ -13,6 +13,7 @@ header {
 #hero-img {
     width: 100%;
     display: block;
+    position: relative;
 }
 header .header-container {
     max-width: 1280px;
@@ -61,4 +62,16 @@ button {
 .btn-accedi {
     background-color: #fff;
     border: 1px solid #fff;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+.title p {
+    padding-top: 20px;
 }
