@@ -33,6 +33,7 @@ header .nav-container {
     color: #fff;
     padding: 15px;
     margin: 0 10px;
+
 }
 .nav-container ul li, .col-btn button {
     vertical-align: sub;
@@ -44,6 +45,7 @@ header .nav-container {
 }
 .col-nav {
     width: 60%;
+    text-align: center;
 }
 .col-btn {
     text-align: right;
@@ -54,12 +56,19 @@ header .nav-container {
     display: table;
     clear: both;
 }
+.nav-container nav ul li, .btn-nav {
+    font-size: 12px;
+    text-transform: capitalize;
+}
 /*buttons*/
 button {
     border-radius: 20px;
     padding: 10px 15px;
     border-style: none;
     margin: 0 10px;
+}
+.btn-nav {
+    padding: 5px 10px;
 }
 .btn-header {
     background-color: #fff;
@@ -81,5 +90,5 @@ i {
     color: #fff;
 }
 .title p {
-    padding: 20px;
+    padding: 30px;
 }
