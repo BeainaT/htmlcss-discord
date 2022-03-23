@@ -68,6 +68,9 @@ button {
     color: #fff;
     background-color: #000;
 }
+i {
+    padding-right: 5px;
+}
 
 .title {
     position: absolute;
